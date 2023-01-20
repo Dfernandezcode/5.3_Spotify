@@ -1,0 +1,40 @@
+/*#72FFB6, #10D164 #efefef, white, black, lightgray*/
+body {
+  background-color: #10d164;
+}
+
+.spotify {
+  display: flex;
+  justify-content: center;
+}
+.spotify__logo {
+  width: 40%;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  background-color: white;
+}
+.player__cover--img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.player__reproductor {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  flex-direction: column;
+  background-color: white;
+  max-width: 400px;
+}
+.player__reproductor__title {
+  text-align: center;
+}
+.player__reproductor__time-start {
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
