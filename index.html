@@ -13,45 +13,55 @@
 
 
 <body>
+    <!--Logo-->
     <header class="spotify">
         <img class="spotify__logo" src="./assets/logo.png" alt="Logo">
     </header>
 
-    <div class="player">
-        <div class="player__cover">
+
+    <main>
+        <div class="cover">
             <img class="player__cover--img" src="./assets/tangana_cover.png" alt="COVER">
         </div>
-        <div class="player__reproductor">
-            <div class="player__reproductor__title">
-                <h2 class="player__reproductor__title-song">Song name</h2>
-                <h3 class="player__reproductor__title-artist">Artist name</h3>
+
+
+        <div class="player">
+            <!--Media-->
+            <div class="player__details">
+                <h2 class="player__details--song">Song name</h2>
+                <h3 class="player__details--artist">Artist name</h3>
             </div>
 
-            <div class="player__reproductor__time">
-                <p class="player__reproductor__time-start">00:00</p>
-                <p class="player__reproductor__time-end">2:30</p>
-                <div class="player__reproductor__time-bar">
-                    <span class="player__reproductor__time-bar--bottom"></span>
-                    <span class="player__reproductor__time-bar--top"></span>
-                </div>
-                <div class="player__reproductor__time-controls">
-                    <p class="player__reproductor__time-controls--shuffle"><i class="fa-solid fa-shuffle"></i></p>
-                    <p class="player__reproductor__time-controls--repeat"><i class="fa-solid fa-repeat"></i></p>
-                </div>
+            <div class="player__time">
+                <p class="player__time--timer">00:00</p>
+                <p class="player__time--timer">2:30</p>
             </div>
 
-            <div class="player__reproductor__buttons">
-                <span class="player__reproductor__buttons-back">
+            <div class="player__bar">
+                <span class="player__bar--top"></span>
+            </div>
+
+            <div class="player__controls">
+                <p class="player__controls--btn"><i class="fa-solid fa-shuffle"></i></p>
+                <p class="player__controls--btn"><i class="fa-solid fa-repeat"></i></p>
+            </div>
+
+            <div class="player__media">
+                <span class="player__media--btn">
                     <i class="fa-solid fa-backward-step"></i>
                 </span>
-                <span class="player__reproductor__buttons-play">
+                <span class="player__media--btn">
                     <i class="fa-solid fa-play"></i>
                 </span>
-                <span class="player__reproductor__buttons-forward">
+                <span class="player__media--btn">
                     <i class="fa-solid fa-forward-step"></i>
                 </span>
             </div>
         </div>
+    </main>
+
+
+
 </body>
 
 </html>
